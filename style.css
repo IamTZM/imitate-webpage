@@ -1,0 +1,628 @@
+html, body, p, ul {
+			margin: 0;
+			padding: 0;
+		}
+		
+		a {
+			text-decoration: none;
+		}
+
+		header{
+			display: flex;
+			justify-content: space-between;
+			/*width: 1200px;*/
+			margin: 0 auto;
+			align-items: center;
+		}
+
+		main {
+			display: flex;
+		}
+
+		.sign {
+			display: inline-block;
+			margin-left: 45px;
+			background: url("https://psilocine.github.io/learngit/ife/xiaowei/task07/css/img/site-pic.png") no-repeat;
+			width: 50px;
+			height: 50px;
+			background-size: cover;
+		}
+
+		.text-sign {
+			float: left;
+			margin: auto auto auto 0;
+			font-size: 25px;
+		}
+
+		li {
+			float: left;
+			align-items: center;
+			box-sizing: border-box;
+		}
+		
+		.headrt {
+			display: inline-block;
+			margin-right: 20px;
+		    width: 50px;
+		    height: 50px;
+		    line-height: 50px;
+		    font-size: 15px;
+		    color: #aaa;
+		    text-align: center;
+		    box-sizing: border-box;  /*把a.headrt的box-sizing设为border-box,使header的height不改变*/
+		}
+
+		.login {
+			display: inline-block;
+			text-decoration: none;
+		    width: 30px;
+		    height: 50px;
+		    line-height: 50px;
+		    font-size: 15px;
+		    color: #aaa;
+		    text-align: center;
+		    margin-right: 20px;
+		}
+
+		.login2 {
+			margin-right: 3px;
+		}
+
+		.headrt:hover {
+			color: red;
+			border-bottom: 1.5px solid;
+			transition: all 0.2s ease-in-out;
+			/*box-sizing: border-box;*/
+		}
+
+		.dl {
+			color: red;
+		}
+
+		.touxiang {
+			display: inline-block;
+			width: 20px;
+			height: 25px;
+			margin: 12.5px 0 12.5px 0;
+		}
+
+		.tou {
+			width: 13px;
+			height: 13px;
+			border-radius: 50% 50% 50% 50%;
+			background: white;
+			border: 1px solid red;
+			margin: 0 auto;
+		}
+
+		.shen {
+			width: 18px;
+			height: 8px;
+			border-radius: 10px 10px 0 0;
+			background: white;
+			border: 1px solid red;
+			border-bottom: 0;
+			margin: 0 auto;
+		}
+
+		.first-part {
+			background:url("images/banner.png"), rgba(102, 101, 101, 0.233);
+			background-repeat: no-repeat, no-repeat;
+			height: 700px;
+			background-size: cover, cover;
+		}
+
+		.nav {
+			list-style: none;
+		}
+
+		div.box{
+			padding-top: 180px;
+			padding-left: 150px;
+		}
+
+		h1 ,p{
+			color: white;
+		}
+
+		h1 {
+			font-size: 60px;
+			font-weight: 100;
+			-webkit-margin-before: 0;
+    		-webkit-margin-after: 0;
+    		-webkit-margin-start: 0px;
+    		-webkit-margin-end: 0px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		.begin_enjoy {
+			box-sizing: border-box;
+			display: inline-block;
+			width: 250px;
+			height: 60px;
+			font-size: 25px;
+			color: white;
+			background: rgb(233, 63, 63);
+			text-align: center;
+			line-height: 60px;
+			margin-top:50px;
+			border-radius: 3px 3px;
+			transition: all 0.5s ease-in-out;
+		}
+
+		.begin_enjoy:hover {
+			color: rgb(233, 63, 63);
+			background: white;
+			transition: all 0.5s ease-in-out;
+		}
+
+		.second-part {
+			height: 200px;
+			display: flex;
+			padding-top: 30px;
+		}
+
+		.second-part .img-sp{
+			display: inline-block;
+			/*width: 25%;*/
+			height: 170px;
+			text-align: center;
+			float: left;
+			flex: 1;
+			
+		}
+
+		.detail {
+			text-align: center;
+			color: rgb(156, 156, 156);
+			font-size: 14px;
+		}
+
+		.detail:hover {
+			color: rgb(233, 63, 63);
+			transition: all 0.3s ease-out;
+			cursor: pointer;
+		}
+
+		.hline {
+			height: 70px;
+			width: 1px;
+			background: #aaa;
+			margin-top: 80px;
+		}
+
+		.third-part {
+			display: flex;
+			height:310px;
+			background-color: #ededec;
+			align-items: center;
+		}
+
+		.third-part img{
+			
+		}
+
+		figure.about-nw {
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.about-nw figcaption {
+			font-size: 30px;
+			color: rgb(139, 139, 139);
+		}
+
+		.fourth-part {
+			background: url("images/map.png") no-repeat;
+			height: 310px;
+			background-size: cover;
+			color: #ffffff;
+			text-align: center;
+		
+			
+		}
+
+		.fourth-part h2{
+			display: block;
+			padding-top: 40px;
+			margin: 0;
+		}
+		.fourth-part p {
+			display: block;
+			padding-top: 25px;
+		}
+		.fourth-part form {
+			display: flex;
+			width: 70%;
+			margin: 25px auto;
+		}
+		.fourth-part select {
+			
+			width: 19%;
+			height: 30px;
+			background-color: rgb(252, 246, 246);
+			color: rgb(141, 140, 140);
+			margin-right: 90px;
+		}
+		.fourth-part input {
+			cursor: pointer;
+			width: 15%;
+			height: 30px;
+			background-color: rgb(253, 36, 36);
+			color: white;
+			border: 0;
+		}
+		.fourth-part input:hover {
+			background-color: rgb(253, 68, 68);
+
+		}
+
+		.fifth-part {
+			background-color: #f7f7f7;
+			height: 605px;
+    		position: relative;
+			display: flex;
+			align-items: center;
+		}
+		 
+		.fifth-part figure {
+			flex: 1;
+			text-align: center;
+		}
+
+		figcaption .site-act {
+			color: rgb(22, 22, 22);
+			font-size: 18px;
+			height: 40px;
+			line-height: 40px;
+		}
+
+		figcaption .act-det {
+			color: #aaa;
+			font-size: 13px;
+		}
+
+		.sixth-part {
+			height: 550px;
+			display: flex;			
+		}
+
+		.sixth-part .left {
+			height: 100%;
+			width: 66.6%;
+			background: url("images/socks.png") no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		.sixth-part .right {
+			height: 100%;
+			width: 33.3%;
+			background: rgb(255, 255, 255);
+		}
+
+		.sixth-part .left div ,.sixth-part .right div {
+			text-align: center;
+			display: block;
+			position: relative;
+			padding-top: 10px;
+		}
+
+		div .t1-1 {
+			color: white;
+			font-size: 40px;
+			margin-top: 130px;
+		}
+		div .t1-2 {
+			color: white;
+			font-size: 100px;
+			font-weight: 200;
+		}
+		div .t1-3 {
+			color: white;
+			font-size:20px;
+		}
+		div .t2-1 {
+			color: black;
+			font-size: 30px;
+			margin-top: 130px;
+		}
+		div .t2-2 em {
+			color: red;
+		}
+		div .t2-2 {
+			color: #aaa;
+			font-size: 15px;
+			margin-top: 40px;
+		}
+		div .t2-3 {
+			color: rgb(255, 20, 20);
+			font-size: 20px;
+			cursor: pointer;
+			border: 1px solid rgb(255, 20, 20);
+			width: 200px;
+			height: 40px;
+			margin: 50px auto;
+			transition: all 0.2s ease-in-out;
+			text-align: center;
+		}
+
+		.t2-3:hover {
+			color: white;
+			background: rgb(255, 20, 20);
+			transition: all 0.2s ease-in-out;
+		}
+
+		div #triangle {
+			width: 0;
+    		height: 0;
+			padding-top: 0;
+    		border-width: 30px;
+   		 	border-style: solid;
+    		border-color: transparent rgb(255, 255, 255) transparent transparent;
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -18px;
+		}
+
+		.seventh-part {
+			height: 520px;
+			position: relative;	
+			display: flex;		
+		}
+
+		.seventh-part .left {
+			display: inline-block;
+			position: relative;
+			width: 66.6%;
+
+		}
+
+		.seventh-part .left2 {
+			margin: 0;
+			display: inline-block;
+			height: 520px;
+			background: rgb(252, 31, 31);
+			color: white;
+			width: 49%;
+			text-align: center;
+			flex: 1;
+			position: relative;
+		}
+		.seventh-part .right2 {
+			margin: 0;
+			display: inline-block;
+			height: 520px;
+			background: rgb(255, 255, 255);
+			color: rgb(252, 31, 31);
+			width: 49%;
+			text-align: center;
+			flex: 1;
+			position: relative;
+		}
+		.seventh-part .right {
+			display: inline-block;
+			height: 520px;
+			background: url("images/platform.png") no-repeat;
+			width: 33.3%;
+			background-size: cover;
+			position: relative;
+			float: left;
+		}
+		div .text1 , div .text2{
+			font-size: 25px;
+			text-align: center;
+			margin-top: 150px;
+		}
+		div .but1 {
+			font-size: 20px;
+			margin: 80px auto;
+			border: 1px solid white;
+			width: 180px;
+			height: 40px;
+			line-height: 40px;
+			transition: all 0.2s ease-in-out;
+		}
+		div .but2 {
+			font-size: 20px;
+			margin: 80px auto;
+			border: 1px solid rgb(255, 34, 34);
+			width: 180px;
+			height: 40px;
+			line-height: 40px;
+			transition: all 0.2s ease-in-out;
+		}
+		.but1:hover {
+			background: white;
+			color: rgb(255, 19, 19);
+			transition: all 0.2s ease-in-out;
+		}
+		.but2:hover {
+			background: rgb(255, 19, 19);
+			color: white;
+			transition: all 0.2s ease-in-out;
+		}
+		.right .triangle-r {
+			width: 0;
+    		height: 0;
+			padding-top: 0;
+    		border-width: 30px;
+   		 	border-style: solid;
+    		border-color: transparent transparent transparent rgb(255, 255, 255) ;
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			margin-top: -25px;
+		}
+		
+		.eighth-part {
+			margin-top: 80px;
+			width: 100%;
+			height: 600px;
+			background-color: white;
+		}
+		div .eight-head {
+			width: 100%;
+			height: 180px;
+			text-align: center;
+		}
+		.eight-head h3 {
+			width: 160px;
+			margin: 0 auto;
+		}
+		.eight-head span {
+			display: inline-block;
+			width: 20px;
+			height: 3px;
+			background-color: red;
+			margin: 12px auto;
+			transition: all 0.2s ease-in-out;
+		}
+		.eight-head h3:hover~span{
+			width: 150px;
+			transition: all 0.2s ease-in-out;
+		}
+		.eight-head p {
+			color: #aaa;
+			font-size: 10px;
+			margin-top: 32px;
+		}
+		div .left-table {
+			width: 39%;
+			height: 360px;
+			float: left;
+			position: relative;
+			top: -56px;
+		}
+		div .table-row {
+			width: 280px;
+			margin-left: 180px;
+			padding-top: 40px; 
+		}
+		.table-row h3{
+			color: rgb(146, 144, 144);
+			text-align: left;
+		}
+		.table-row p {
+			color: #aaa;
+			font-size: 12px;
+			text-align: center;
+		}
+		.table-row a {
+			font-size: 12px;
+			color: #aaa;
+			float: right;
+			line-height: 20px;
+		}
+
+		.eight-para form {
+			display: inline-block;
+			float: right;
+			width: 56%;
+			height: 360px;
+			position: relative;
+			top: -38px;
+			
+		}
+		form input {
+			display: inline-block;
+			background: rgb(227, 228, 226);
+			width: 36%;
+			height: 45px;
+			font-size: 14px;
+			padding-left: 10px;
+			margin: 5px auto;
+			user-select: text;
+    		cursor: auto;
+			color: rgb(34, 34, 34);
+		}
+		form input:hover{
+			background: rgb(227, 228, 226);
+		}
+		form textarea {
+			width: 78%;
+			height: 160px;
+			margin: 10px auto;
+			font-size: 14px;
+			background: rgb(237, 238, 236);
+		}
+		form #sub {
+			width: 79%;
+			text-align: center;
+			font-size: 20px;
+			color: black;
+		}
+		#sub:hover {
+			cursor: pointer;
+		}
+		#age, #addr {
+			margin-left: 30px;
+		}
+		.ninth-part {
+			width: 100%;
+			height: 420px;
+			background-color: #32353e;
+			text-align: center;
+		}
+		.ninth-part h2 {
+			color: white;
+			padding-top: 50px;
+		}
+		.ninth-part p {
+			color: white;
+			font-size: 15px;
+		}
+		form .email-sub2 {
+			width: 100%;
+			height: 210px;
+			padding-top: 30px;
+			display: inline-block;
+			align-content: center;
+		}
+		#email {
+			width: 40%;
+			height: 50px;
+			color:#444444;
+			border: 2px solid #aaa;
+			box-sizing: border-box;
+			user-select: text;
+    		cursor: auto;
+			margin-right: 5px;
+			margin-top: 20px;
+		}
+		#sub2 {
+			width: 20%;
+			height: 50px;
+			text-align: center;
+			background: rgb(112, 112, 112);
+			color: white;
+			font-size: 20px;
+			margin-left: 5px;
+			margin-top: 20px;	
+		}
+		.img-d img {
+			margin: 17px 8px;
+		}
+		footer {
+			background: #303039;
+			width: 100%;
+			height: 52px;
+			line-height: 52px;
+		}
+		footer span {
+			margin-left: 80px;
+			float: left;
+			color: white;
+			font-size: 15px;
+		}
+		footer a {
+			font-size: 15px;
+			float: right;
+			margin-right: 60px;
+			color: white;
+		}
